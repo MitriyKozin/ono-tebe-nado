@@ -16,22 +16,21 @@
     <nav class="header__menu">
       <ul class="header__links-list">
         <li class="header__links-list-item header__links-list-item-no-bullit">
-          <a class="header__link" href="#" target="_blank">главная</a>
+          <a class="header__link" target="_blank">главная</a>
         </li>
         <li class="header__links-list-item">
-          <a class="header__link header__link_active" href="#">посмотреть лоты</a>
+          <a class="header__link header__link_active" href="#0">посмотреть лоты</a>
         </li>
         <li class="header__links-list-item">
-          <a class="header__link header__link_active" href="#">об аукционе</a>
+          <a class="header__link header__link_active" href="#0">об аукционе</a>
         </li>
       </ul>
     </nav>
     <a class="header__logo">
-      <img class="header__logo header__logo-image" src="./images/logo-black.svg" alt="Чёрный логотип 'ОНО ТЕБЕ НАДО'">
+      <img class="header__logo-image" src="./images/logo-black.svg" alt="Чёрный логотип 'ОНО ТЕБЕ НАДО'">
     </a>
     <address class="address">
       <a href="tel:+99995555555">+9 999 555 5555</a>
-      <br>
       <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
       <p class="header__address">наб. Принсенграхт 263-265,<br>Амстердам</p>
     </address>
@@ -42,19 +41,16 @@
     <section class="cover">
       <div class="overlay"></div>
       <h1 class="cover__title">
-        <a class="aligned-text"><span class="letter-spacing-extended">он</span>
-          <span class="no-letter-spacing">о</span>
-        </a>
-        <a class="aligned-text-center"><span class="letter-spacing-extended">теб</span>
-          <span class="no-letter-spacing">е</span>
-        </a>
-        <a class="aligned-text-right"><span class="no-letter-spacing">н</span>
-          <span class="letter-spacing-extended">адо</span>
-        </a>
+        <span class="aligned-text">он<span class="letter-spacing-extended">о</span>
+        </span>
+        <span class="aligned-text-center">теб<span class="letter-spacing-extended">е</span>
+        </span>
+        <span class="aligned-text-right">н<span class="no-letter-spacing letter-spacing-extended">адо</span>
+        </span>
       </h1>
       <div class="cover__description">
-        <h2 class="cover__description-text">Аукцион вещей, в которые никто не верил</h2>
-        <button class="bet-button">Сделать ставку</button>
+        <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+        <button type="button" class="bet-button">Сделать ставку</button>
       </div>
     </section>
 
@@ -62,8 +58,8 @@
       <h2 class="lots__heading">Лоты</h2>
       <ul class="lots__card-list">
         <li class="lots__card-list-item">
-          <a class="card-link">
-            <article class="card card_type-film">
+          <a class="card-link" href="#0">
+            <article class="card card_type_film">
               <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
               <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы
                 не
@@ -73,8 +69,8 @@
           </a>
         </li>
         <li class="lots__card-list-item">
-          <a class="card-link">
-            <article class="card card_type-book">
+          <a class="card-link" href="#0">
+            <article class="card card_type_book">
               <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
               <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
                 древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы,
@@ -86,8 +82,8 @@
           </a>
         </li>
         <li class="lots__card-list-item">
-          <a class="card-link">
-            <article class="card card_type-picture">
+          <a class="card-link" href="#0">
+            <article class="card card_type_picture">
               <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
               <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
                 инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не
@@ -98,33 +94,29 @@
           </a>
         </li>
       </ul>
-      <a class="lots__look-more-link" href="#">посмотреть больше</a>
+      <a class="lots__look-more-link" href="#0">посмотреть больше</a>
     </section>
 
     <section class="about">
-      <div class="logo__column">
+      <div class="logo-column">
         <div class="about__logo">
           <img class="about__logo-image" src="./images/logo-white.svg" alt="Белый логотип 'ОНО ТЕБЕ НАДО'">
-        </div>
       </div>
+    </div>
       <div class="about__column">
         <h2 class="about__title">Об аукционе</h2>
-        <ul class="about__text">
-          <li>
-            <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши
-              лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка
-              или
-              картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
-            </p>
-          </li>
-          <li>
-            <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные
-              критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику,
-              кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру.
-              Когда
-              в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
-          </li>
-        </ul>
+        <div class="about__text">
+          <p>Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши
+            лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка
+            или
+            картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+          </p>
+          <p>Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные
+            критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику,
+            кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру.
+            Когда
+            в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
+        </div>
       </div>
     </section>
   </main>
@@ -138,30 +130,30 @@
     <nav class="footer__menu">
       <ul class="footer__menu-list">
         <li class="footer__menu-list-item">
-          <a class="footer__menu-link" href="#" target="_blank">главная</a>
+          <a class="footer__menu-link footer__menu-link_active" target="_blank">главная</a>
         </li>
         <li class="footer__menu-list-item">
-          <a class="footer__menu-link_active" href="#">посмотреть лоты</a>
+          <a class="footer__menu-link" href="#0">посмотреть лоты</a>
         </li>
         <li class="footer__menu-list-item">
-          <a class="footer__menu-link_active" href="#">об аукционе</a>
+          <a class="footer__menu-link" href="#0">об аукционе</a>
         </li>
       </ul>
     </nav>
     <ul class="footer__social-list">
       <li class="footer__social-list-item">
-        <a class="footer__social-link" href="#"><img class="footer__social-icon" src="./images/yt.svg"
+        <a class="footer__social-link"><img class="footer__social-icon" src="./images/yt.svg"
             alt="Иконка'YouTube'">
         </a>
       </li>
       <li class="footer__social-list-item">
-        <a class="footer__social-link footer__menu-link_active" href="#"><img class="footer__social-icon"
-            src="./images/vk.svg" alt="Иконка'VK'">
+        <a class="footer__social-link" href="#0"><img class="footer__social-icon" src="./images/vk.svg"
+            alt="Иконка'VK'">
         </a>
       </li>
       <li class="footer__social-list-item">
-        <a class="footer__social-link footer__menu-link_active" href="#"><img class="footer__social-icon"
-            src="./images/pinterest.svg" alt="Иконка'Pinterest'">
+        <a class="footer__social-link" href="#0"><img class="footer__social-icon" src="./images/pinterest.svg"
+            alt="Иконка'Pinterest'">
         </a>
       </li>
     </ul>
